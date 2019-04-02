@@ -1,4 +1,84 @@
+
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Badri's Portfolio | A portfolio of my work</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Aaron Michael McNulty">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/icon/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="assets/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- The entire content of the site except for the sticky footer -->
+    <div id="content">
+        <header>
+            <section>
+                <div id="myName">
+                    Badri Abdi
+                </div>
+                <nav>
+                    <div id="aboutButton" class="navButton">
+                        <a href="index.html">About</a>
+                    </div>
+                    <div id="portButton" class="navButton">
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>
+                    <div id="contactButton" class="navButton">
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </nav>
+            </section>
+        </header>
+        <div id="bodyContent">
+            <section id="mainContent">
+                <h1>Portfolio</h1>
+                <div class="picSection">
+                    <div class="thumbnail left">
+                      <img class="img-fluid port-image" src="https://via.placeholder.com/200/200">
+                        <span class="label">Train</span>
+                    </div>
+                    <div class="thumbnail right">
+                      <img class="img-fluid port-image" src="https://via.placeholder.com/200/200">
+                        <span class="label">Crystal</span>
+                    </div>
+                </div>
+                <div class="picSection">
+                    <div class="thumbnail left">
+                      <img class="img-fluid port-image" src="https://via.placeholder.com/200/200">
+                        <span class="label">Word-guess</span>
+                    </div>
+                    <div class="thumbnail right">
+                      <img class="img-fluid port-image" src="https://via.placeholder.com/200/200">
+                        <span class="label">Trivia</span>
+                    </div>
+                </div>
+                <div class="picSection">
+                        <div class="thumbnail left">
+                          <img class="img-fluid port-image" src="https://via.placeholder.com/200/200">
+                            <span class="label">Working-buttons</span>
+                        </div>
+                        <div class="thumbnail right">
+                          <img class="img-fluid port-image" src="https://via.placeholder.com/200/200">
+                            <span class="label">Liri-node-app</span>
+                        </div>
+                    </div>
+                    
+            </section>
+            
+        </div>
+        <!-- This is a blank div that is given the same height as the footer. This makes the body long enough to add in a footer without it overlapping content in the body. -->
+        <div class="push"></div>
+    </div>
+    <footer>
+        <p id="copyright">
+            &copy; Copyright 2019 Badri Abdi
+        </p>
+    </footer>
+</body>
+</html>
+<!-- <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
@@ -24,17 +104,28 @@ html {
 position: relative;
 
 min-height: 100%;
+background: #cdcdcd;;
 
 }
+
+
 
 
 #name {
 
 background: #4aaaa5;
-padding: 30px 40px 20px 40px;
+padding: 30px 60px 20px 50px;
 color: #fff;
 font-size: 30px;
 font-weight: bold;
+
+}
+
+body{
+  width:70%;
+  margin:auto;
+  border: 0.1px solid #666;
+  border-bottom: none;
 
 }
 
@@ -45,23 +136,16 @@ font-family: , serif;
 font-weight: bold;
 }
 
-
-
-
-@media only screen and (max-width: 767px) {
-.navbar-header {
-  background-color: #4aaaa5;
-}
-}
-
 .footer {
 
 position: absolute;
 bottom: 0;
-width: 100%;
-height: 60px;
+width: 70%;
+height: 80px;
 background-color: #666;
+margin: auto;
 }
+
 
 
 .two-toned-footer-color {
@@ -70,6 +154,18 @@ height: 6px;
 padding-top: 3px;
 background-color: #4aaaa5;
 }
+
+#copy{
+  color:#fff;
+}
+
+
+@media only screen and (max-width: 767px) {
+.navbar-header {
+  background-color: #4aaaa5;
+}
+}
+
 
 
 
@@ -111,14 +207,14 @@ background-color: #4aaaa5;
 
     <div class="row">
       <div class="col-sm-6 col-md-12 col-lg-6">
-        <img class="img-fluid port-image" src="https://via.placeholder.com/200x200">
+        <a href="https://badriabdi.github.io/homework-crystals/"><img class="img-fluid port-image" src="https://via.placeholder.com/200/200">
       </div>
       <br><br><br><br>
-      <div class="col-sm-6 col-md-12 col-lg-6">
-        <img class="img-fluid port-image" src="https://via.placeholder.com/200/200">
-      </div>
 
-    </div>
+      <div class="col-sm-6 col-md-12 col-lg-6">
+        <a href=""><img class="img-fluid port-image" src="https://via.placeholder.com/400/200"></a>
+      </div>
+      </div>
     <br><br><br><br>
     <div class="row">
       <div class="col-sm-6 col-md-12 col-lg-6">
@@ -138,8 +234,8 @@ background-color: #4aaaa5;
 
     <footer class="footer">
       <div class="two-toned-footer-color"></div>
-      <p class="text-muted text-muted-footer text-center">
-
+      <p class="text-muted text-muted-footer text-center" id="copy">
+       copy
       </p>
     </footer>
 
@@ -147,4 +243,4 @@ background-color: #4aaaa5;
 
 </body>
 
-</html>
+</html> -->
