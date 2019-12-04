@@ -291,21 +291,21 @@ footer {
     }
     
     #profilePic {
-        width: 240px;
+        width: 840px;
         height: 240px;
         float: left;
         margin: 0px 20px 10px 0px;
     }
 
     .thumbnail {
-        position: relative;
+        position: absolute;
         margin-bottom: 40px;
         cursor: pointer;
         transition: all .8s ease;
     }
 
     .thumbnail img {
-        max-width: 250px;
+        max-width: 100%;
     }
 
     .left {
